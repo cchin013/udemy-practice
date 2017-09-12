@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <script type="text/javascript" src="arraysObjectsDOMQuerySelector.js"></script>
+</head>
+
+<body>
+    <h1>I am an h1!</h1>
+    <p id="first" class="special">hello</p>
+    <p class="special">goodbye</p>
+    <p>Hi again</p>
+    <p id="last">Goodbye again</p>
+    <script>
+        //different ways to select the first paragraph
+        document.getElementById("first");
+        document.querySelector("#first");
+        document.getElementsByClassName("special")[0];
+        document.querySelector(.special);
+        document.querySelector("p");
+        document.querySelectorAll("p")[0];
+
+    </script>
+</body>
+
+</html>
